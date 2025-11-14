@@ -42,8 +42,15 @@ function changePassword()
       Must be 8-20 characters long.
     </span>
   </div>
+  <div className='mb-3'>
+          <button
+            // onClick={onLogin}
+            className='btn btn-success'
+          >
+            submit
+          </button>
+        </div>
   </div>
-
         </div>
     )
 }
